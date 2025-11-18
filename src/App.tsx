@@ -47,6 +47,15 @@ export default function App() {
                   </div>
                   ))}
                 </div>
+                
+                <a 
+                  href="https://www.sympla.com.br/evento/cinliga-showcase-das-ligas-academicas-do-cin/3221208"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-6 inline-block bg-gradient-to-r from-[#da1e2f] to-[#ad0421] text-white px-8 py-3 rounded-lg hover:shadow-lg hover:shadow-red-500/50 transition-all duration-300 hover:scale-105"
+                >
+                  INGRESSOS
+                </a>
               </div>
             </div>
           </div>
