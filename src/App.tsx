@@ -1,5 +1,5 @@
 import { ProgramCard } from './components/ProgramCard';
-import { MapPin, Heart, Calendar, Clock } from 'lucide-react';
+import { MapPin, Heart, Calendar, Clock, Ticket } from 'lucide-react';
 import { useState } from 'react';
 import { Fundo } from './Fundo';
 import { Logo } from './components/Logo';
@@ -48,14 +48,15 @@ export default function App() {
                   ))}
                 </div>
                 
-                <a 
-                  href="https://www.sympla.com.br/evento/cinliga-showcase-das-ligas-academicas-do-cin/3221208"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-6 inline-block bg-gradient-to-r from-[#da1e2f] to-[#ad0421] text-white px-8 py-3 rounded-lg hover:shadow-lg hover:shadow-red-500/50 transition-all duration-300 hover:scale-105"
-                >
-                  INGRESSOS
-                </a>
+              <a 
+                href="https://www.sympla.com.br/evento/cinliga-showcase-das-ligas-academicas-do-cin/3221208"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-6 flex items-center gap-2 bg-white px-3 py-1.5 rounded-md hover:bg-neutral-50 transition-colors"
+              >
+                <Ticket className="w-5 h-5 text-neutral-700" />
+                <span className="text-neutral-900">INGRESSOS</span>
+              </a>
               </div>
             </div>
           </div>
