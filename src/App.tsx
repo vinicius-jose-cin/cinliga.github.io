@@ -52,7 +52,7 @@ export default function App() {
                 href="https://www.sympla.com.br/evento/cinliga-showcase-das-ligas-academicas-do-cin/3221208"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="mt-6 flex items-center gap-2 bg-white px-3 py-1.5 rounded-md hover:bg-neutral-50 transition-colors"
+                className="mt-10 flex items-center gap-2 bg-white px-3 py-3 rounded-md hover:bg-neutral-50 transition-colors"
               >
                 <Ticket className="w-5 h-5 text-neutral-700" />
                 <span className="text-neutral-900">INGRESSOS</span>
